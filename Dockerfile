@@ -6,6 +6,7 @@ RUN yum makecache && \
     yum install -y bzip2 && \
     yum install -y wget && \
     yum install -y python36 && \
+    yum install -y python-jq && \ 
     yum install -y python-pip && \
     pip install --upgrade pip && \
     pip install yq && \
